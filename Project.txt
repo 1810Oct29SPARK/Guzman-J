@@ -1,0 +1,13 @@
+SPARK Project
+
+Theme: Texas Sports Website that displays info, scores, and standings information for
+ Texas pro sports teams like, the Cowboys, Texans, Spurs, Rockets, Mavs, Astros and Rangers.
+
+Use cases:
+1. Allows users to check up-to-date standings with Texas teams
+2. Allows users to see the coaching staff, and roster of Texas teams
+3. Allows the user to see Team schedules
+4. Users can sign up for monthly newsletter
+5. Allows users to see team pictures of current seasons
+6. Allows the use of seeing up to date team news
+7. The user can look at the website observing the latest statistics for current seasons.

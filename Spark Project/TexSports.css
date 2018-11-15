@@ -1,3 +1,6 @@
+@import url("bootstrap.min.css");
+@import url("bootstrap-theme.css");
+
 header{
     text-align: center;
     color: white;
@@ -6,100 +9,94 @@ header{
     font-style: italic;
 }
 
-body{
-        background-color: black
-}
-
-nav {
+section {
+    color: #fff;
     text-align: center;
-    word-spacing: 100px;
-    border: 7px solid navy;
-    background-color: rgb(223, 16, 16);
+  }
+
+article {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 20px;
+  }
+
+  .left-half {
+    background-color: #ff9e2c;
+    position: absolute;
+    left: 0px;
+    width: 50%;
+  }
+  
+  .right-half {
+    background-color: #b6701e;
+    position: absolute;
+    right: 0px;
+    width: 50%;
+  }
+
+
+.center {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
-nav ul{
-        margin: 0;
-        padding: 0;
-        list-style: none;
-        padding: 12px 16px;
+.text-center {
+    text-align: center;
 }
 
-nav li {
-        display: inline-block;
-        margin: 5px 30px;
-}
-
-nav ul > li > a {
-        color: white;
-        text-decoration: none;
-        text-transform: uppercase;
-        font-size: 14px;
-}
-
-nav ul > li > a:hover{
-                color: #444;
-}
-
-nav ul > li > a:before{
-        content: '';
-        display: block;
-        height: 15px;
-        background-color: black;
-
+#image {
         position: relative;
-        top: 0;
-        width: 0%;
-
-        transition: all ease-in-out 250ms; 
+        
 }
 
-nav ul > li > a:hover::before{
-        width: 100%;
+#jumbotronOne {
+        background-color: navy;
 }
 
-/* Style The Dropdown Button */
-.dropbtn {
-        background-color: none;
-        color: white;
-        padding: 1px;
-        font-size: 14px;
-        border: none;
-        cursor: pointer;
-    }
-    
-    /* The container <div> - needed to position the dropdown content */
-    .dropdown {
-        position: relative;
-        display: block;
-    }
-    
-    /* Dropdown Content (Hidden by Default) */
-    .dropdown-content {
-        display: none;
-        position: relative;
-        background-color: #f9f9f9;
-        min-width: 100px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        z-index: 1;
-    }
-    
-    /* Links inside the dropdown */
-    .dropdown-content a {
-        color: black;
-        padding: 6px 12px;
-        text-decoration: none;
-        display: block;
-    }
-    
-    /* Change color of dropdown links on hover */
-    .dropdown-content a:hover {background-color: #f1f1f1}
-    
-    /* Show the dropdown menu on hover */
-    .dropdown:hover .dropdown-content {
-        display: block;
-    }
-    
-    /* Change the background color of the dropdown button when the dropdown content is shown */
-    .dropdown:hover .dropbtn {
-        background-color: #f002029f;
-    }
+#jumbotronTwo {
+        background-color: red;
+}
+
+#jumbotronThree{
+        background-color: rgba(78, 73, 73, 0.966);
+}
+
+#jumbotronFour{
+        background-color: orange;
+}
+
+#th {
+    text-align: center;
+}
+table th {
+    width: auto !important;
+}
+
+#dallas {
+    color: blue
+}
+
+#houston {
+    color: red;
+}
+
+#mavs {
+    color: blue;
+}
+
+#rocket {
+    color: red;
+}
+
+#astro {
+    color: orange;
+}
+
+#ranger {
+    color: blue;
+}

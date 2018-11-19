@@ -24,14 +24,12 @@ article {
   }
 
   .left-half {
-    background-color: #ff9e2c;
     position: absolute;
     left: 0px;
     width: 50%;
   }
   
   .right-half {
-    background-color: #b6701e;
     position: absolute;
     right: 0px;
     width: 50%;
@@ -73,8 +71,19 @@ article {
 #th {
     text-align: center;
 }
+
+#thbdr{
+    border: 3px solid black;
+}
+
+.tablebo {
+    border: 3px solid black;
+}
+
+.table tbody tr > td.Houston Rockets
+
 table th {
-    width: auto !important;
+        width: auto !important;
 }
 
 #dallas {
@@ -99,4 +108,18 @@ table th {
 
 #ranger {
     color: blue;
+}
+
+#divisions {
+
+    margin-left: 15px;
+}
+
+#newsMar {
+    margin-left: 20px;
+}
+
+#Congratsemail {
+    background-image: linear-gradient(red, blue );
+    text-align: center;
 }

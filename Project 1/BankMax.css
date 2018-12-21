@@ -1,0 +1,25 @@
+#bond
+{
+    border: 30px, blue;
+    padding: 5px;
+    margin: 45px;
+}
+
+#aboutpar
+{
+    border: 20px, turquoise;
+    text-align: center;
+}
+
+#carouselcap {
+    color: turquoise;
+
+}
+
+#carouselMan {
+    color: whitesmoke;
+}
+
+#carouselReimb {
+    color: silver;
+}

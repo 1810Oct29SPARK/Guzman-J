@@ -7,7 +7,7 @@
   <title>BankMax-Login</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="https://bootswatch.com/4/darkly/bootstrap.min.css" />
-
+  <script src="main.js"></script>
 </head>
 
 <body id="body">
@@ -27,7 +27,10 @@
           <a class="nav-link" href="#">Employees</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Reimbusements</a>
+          <a class="nav-link" href="#">Managers</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Reimbursements</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">About</a>
@@ -42,24 +45,22 @@
   <br>
   <br>
   <div class="jumbotron">
-    <form>
+    <form action="login" method="post">
       <div class="form-group">
         <label for="InputUserName">Username</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-        <small id="emailHelp" class="form-text text-muted">Business email preferred.</small>
+        <input type="email" name="username" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Username">
       </div>
       <div class="form-group">
         <label for="InputPassword">Password</label>
-        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        <input type="password" name="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
       </div>
       <br>
-      <button type="submit" class="btn btn-primary">Submit</button>
+      <button type="submit" class="btn btn-primary" value="login">Submit</button>
     </form>
     <p>New User?</p>
     <button type="button" class="btn btn-primary">Register</button>
   </div>
 
-  <script src="BankMax-JavaScript.js"></script>
 </body>
 
 </html>
